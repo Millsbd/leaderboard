@@ -1,0 +1,18 @@
+HTML:
+-basic boilerplate witht title and link to stylesheet
+-table with head topics, and body container to hold posts. 
+-script tag to js logic
+
+CSS:
+-basic display set up and root file for color variables. 
+-table wrapper with overflow properties. 
+-flext to display avatars
+
+JS:
+-variables to hold the urls where the data is coming from. Also grabs the post container from the DOM.
+-Object defining the possible post categories. 
+-function to assign the category based on the id. 
+-Time ago to check current time and difference between that an the last post. Then diplay this activity. 
+-logic to add in the avatar
+-async function to fetch the data and catch any possible errors, I could review fetch / catch. 
+-funcniton to create the post html and allow it to display on the page. 
